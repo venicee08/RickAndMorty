@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Title Section*/
+#title{
+  background-color: #02AEC7;
+  padding: 3% 15% 5%;
+}
+
+#locations{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/*Navigation Bar Section*/
+.website-title{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.links{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar{
+  padding: 0 0 2rem;
+}
+
+#title-locations{
+  background-color: #97C93C;
+  padding: 3% 15% 1%;
+  position: relative;
+  z-index: 1;
+}
+.card{
+  /* FOR BACKGROUND PROPERTIES */
+  width: 480px;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 2em;
+  border: 7px solid #1F1F43;
+  background-color: #97C93C;
+  border-radius: 10%;
+  /* FOR FONT ATTRIBUTES */
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: black;
+}
+#footer{
+  background-color: #02AEC7;
+  text-align: center;
+  padding: 2% 3%;
+}

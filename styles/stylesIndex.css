@@ -1,0 +1,75 @@
+/*Season Trailers*/
+#season-trailers-section{ /*index*/
+  background-color: #97C93C;
+  text-align: center;
+  color: white;
+  padding: 3% 0% 5%;
+}
+.season-heading{ /*index*/
+  font-weight: 700;
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-right: 330px;
+}
+.trailer{ /*index*/
+  color: white;
+  text-align: center;
+  height: 500px;
+  width: 750px;
+  background-color: #02AEC7;
+  border-radius: 30%;
+  border: 15px solid #E14D2A;
+}
+.carousel-cont{ /*index*/
+  padding-left: 400px;
+}
+
+/*Main Character List Section*/
+#main-charac-section{
+  padding: 3% 15% 3%;
+  background-color: #1F1F43;
+}
+
+#characters{
+  background-color: #02AEC7;
+  padding: 4% 5% 2%;
+}
+
+#cards{ /*index*/
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main-charac-heading{
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.s-heading{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0.5em 2em 0.2em;
+  color: white;
+  padding-bottom: 0.5em;
+}
+.card{
+  /* FOR BACKGROUND PROPERTIES */
+  width: 480px;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 2em;
+  border: 7px solid #1F1F43;
+  background-color: #97C93C;
+  border-radius: 10%;
+  /* FOR FONT ATTRIBUTES */
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: black;
+}

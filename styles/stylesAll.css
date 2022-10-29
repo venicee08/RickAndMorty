@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Navigation Bar Section*/
+
+.links{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar{
+  padding: 0 0rem 2rem;
+}
+
+/*Title Section*/
+#title{
+  background-color: #02AEC7;
+  padding: 3% 15% 5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+/*Title Section*/
+.title-quote{
+  font-size: 6rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #1F1F43;
+  text-shadow: black;
+}
+.quote{
+  color: white;
+  padding-right: 2px;
+}
+.title-img{
+  transform: rotate(20deg);
+  position: absolute;
+  bottom: 1%;
+  width: 105%;
+  transition: width 2s;
+}
+.title-sub{
+  margin-right: 3em;
+  color: white;
+  font-weight: 300;
+  padding-top: 2%;
+}
+
+/*section heading*/
+.heading{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 1em 2em 1.5em;
+  color: white;
+}
+.btn-goto{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 3px 10px 3px;
+}
+
+/*Footer Section*/
+#footer{
+  background-color: #02AEC7;
+  text-align: center;
+  padding: 2% 2%;
+}
+
+/*Javascipt Font Attributes*/
+.index-main-charac-name{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding-top: 1em;
+  font-size: 1.5rem;
+  color: #1F1F43;
+}
+.index-main-charac-name:hover, .mainC-name:hover, .mainC-status:hover, .mainC-species:hover, .mainC-origin:hover{
+  text-decoration: none;
+  color: #E14D2A;
+}
+.mainC-name{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: #1F1F43;
+}
+.mainC-status{
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1rem;
+  color: white;
+  padding-top: 2%;
+}
+.mainC-species, .mainC-origin{
+  font-family: 'Chivo', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  padding-top: 2%;
+}
+.mainC-origin{
+  padding-bottom: 3%;
+}
